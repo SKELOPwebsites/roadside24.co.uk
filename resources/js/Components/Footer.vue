@@ -2,7 +2,7 @@
     <footer>
         <div class="hidden sm:block h-14 w-full bg-site-800 text-white">
             <Container class="flex h-full items-center justify-center items-center">
-                <p class="text-xl text-center"><b>Need help?</b> <Link href="/contact" class="underline">Contact us</Link>, or call us on <a href="07939485548" class="underline">07939 485548</a></p>
+                <p class="text-xl text-center"><b>Need help?</b> <Link href="/contact" class="underline">Contact us</Link>, or call us on <a href="tel:07386315315" class="underline">07386 315315</a></p>
             </Container>
         </div>
         <div class="bg-stone-800">
@@ -11,7 +11,7 @@
                     <div class="lg:col-span-1 col-span-4">
                         <img
                             class="w-48"
-                            src="/images/logo-light.png"
+                            src="/images/logo-light.webp"
                             alt="Roadside24 Logo"
                         >
                         <p class="mt-6 text-gray-500 text-sm">
@@ -25,7 +25,7 @@
                         <div class="space-y-3 flex flex-col items-start">
                             <Link class="text-sm text-gray-500 underline hover:text-gray-300" href="/mobile-tyre-fitting" title="Mobile Tyre Fitting">Mobile Tyre Fitting</Link>
                             <Link class="text-sm text-gray-500 underline hover:text-gray-300" href="/mobile-tyre-repair" title="Mobile Tyre Repair">Mobile Tyre Repair</Link>
-                            <Link class="text-sm text-gray-500 underline hover:text-gray-300" href="/van-mobile-tyre-repair" title="Van Mobile Tyre Repair">Van Mobile Tyre Repair</Link>
+                            <Link class="text-sm text-gray-500 underline hover:text-gray-300" href="/van-mobile-tyre-fitting" title="Van Mobile Tyre Fitting">Van Mobile Tyre Repair</Link>
                             <Link class="text-sm text-gray-500 underline hover:text-gray-300" href="/branded-tyres" title="Branded Tyres">Branded Tyres</Link>
                         </div>
                     </div>
@@ -41,11 +41,11 @@
                     <div class="lg:col-span-1 col-span-4">
                         <p class="text-xl tracking-wide mb-2 text-white text-center">SECURE PAYMENTS</p>
                         <div class="space-y-3 flex items-center justify-center flex-wrap">
-                            <img class="w-20" src="/images/card/visa.png" alt="Visa">
-                            <img class="w-20" src="/images/card/mastercard.png" alt="Mastercard">
-                            <img class="w-20" src="/images/card/discover.png" alt="Discover">
-                            <img class="w-20" src="/images/card/apple-pay.png" alt="Apple Pay">
-                            <img class="w-20" src="/images/card/google-pay.png" alt="Google Pay">
+                            <img class="w-20" src="/images/card/visa.webp" alt="Visa">
+                            <img class="w-20" src="/images/card/mastercard.webp" alt="Mastercard">
+                            <img class="w-20" src="/images/card/discover.webp" alt="Discover">
+                            <img class="w-20" src="/images/card/apple-pay.webp" alt="Apple Pay">
+                            <img class="w-20" src="/images/card/google-pay.webp" alt="Google Pay">
                         </div>
                     </div>
                 </div>

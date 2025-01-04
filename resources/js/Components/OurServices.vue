@@ -34,28 +34,28 @@ import Container from "./Container.vue"
 
 const services = [
     {
-        image_url: '/images/services/mobile-tyre-fitting.jpg',
+        image_url: '/images/services/mobile-tyre-fitting.webp',
         name: 'Mobile Tyre Fitting',
         desc: 'At home, work or roadside',
         href: '/mobile-tyre-fitting',
         component: 'MobileTyreFitting'
     },
     {
-        image_url: '/images/services/mobile-tyre-repair.jpg',
+        image_url: '/images/services/mobile-tyre-repair.webp',
         name: 'Mobile Tyre Repair',
         desc: 'Securely seal your punctured tyre',
         href: '/mobile-tyre-repair',
         component: 'MobileTyreRepair'
     },
     {
-        image_url: '/images/services/van-mobile-tyre-fitting.jpg',
+        image_url: '/images/services/van-mobile-tyre-fitting.webp',
         name: 'Van Mobile Tyre Fitting',
         desc: 'Van tyres fitted at your convenience',
         href: '/van-mobile-tyre-fitting',
         component: 'VanMobileTyreFitting'
     },
     {
-        image_url: '/images/services/branded-tyres.jpg',
+        image_url: '/images/services/branded-tyres.webp',
         name: 'Branded Tyres',
         desc: 'High quality and performant tyres',
         href: '/branded-tyres',

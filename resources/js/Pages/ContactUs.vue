@@ -1,16 +1,20 @@
 <template>
     <Head>
         <title>Contact the Team | Roadside24</title>
-        <meta name="description" content="Contact the team!">
+        <meta name="description" content="Get in touch with Roadside24 for mobile tyre fitting, repairs, and more. Contact us today for expert service in Oxfordshire, Buckinghamshire, and surrounding areas.">
         <link rel="canonical" href="https://roadside24.co.uk/contact">
     </Head>
 
     <div class="relative">
         <div class="relative h-[40vh] max-h-[550px] md:min-h-[440px] sm:min-h-[340px] min-h-[300px] md:w-full overflow-hidden">
             <img
-                src="/images/contact-us.jpg"
+                src="/images/contact-us-400.webp"
+                srcset="/images/contact-us.webp 1024w,
+                        /images/contact-us-800.webp 800w,
+                        /images/contact-us-400.webp 400w"
+                sizes="100vw"
                 class="absolute inset-0 object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile Tyre Fitting"
+                alt="Contact the mobile tyre fitting team"
             >
         </div>
 
@@ -20,9 +24,9 @@
                 <h2 class="sm:text-left text-center font-light text-gray-200 md:text-3xl sm:text-2xl text-lg">Need to contact us for a particular reason? No problem!</h2>
 
                 <div class="flex items-center sm:justify-start justify-center sm:space-x-6 sm:space-y-0 space-y-4 md:mt-10 sm:mt-6 mt-3">
-                    <a href="tel:07939485548" class="flex items-end font-bold md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
+                    <a href="tel:07386315315" class="flex items-end font-bold md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" class="md:h-8 md:h-8 sm:w-7 sm:h-7 w-6 h-6 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
-                        <span>07939 485548</span>
+                        <span>07386 315315</span>
                     </a>
                 </div>
             </Container>
@@ -41,7 +45,7 @@
                 </div>
                 <div>
                     <p class="text-lg font-bold mb-2">Telephone</p>
-                    <p>07939 485548</p>
+                    <p>07386 315315</p>
                 </div>
             </div>
             <div class="md:w-7/12 w-full">

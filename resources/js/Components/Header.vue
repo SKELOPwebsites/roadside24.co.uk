@@ -5,7 +5,7 @@
                 <Link href="/">
                     <img
                         class="w-full"
-                        src="/images/logo-light.png"
+                        src="/images/logo-light.webp"
                         alt="Roadside24 Logo"
                     >
                 </Link>

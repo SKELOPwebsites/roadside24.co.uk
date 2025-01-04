@@ -1,7 +1,7 @@
 <template>
     <div class="xl:h-[330px] md:h-[288px] sm:h-[250px] h-fit min-h-[300px] relative select-none" id="coverage">
         <img
-            src="/images/areas-we-cover.jpg"
+            src="/images/areas-we-cover.webp"
             class="absolute inset-0 object-center object-cover h-full w-full brightness-[0.4]"
             alt="Roadside24 Coverage Zone"
         >
@@ -15,7 +15,7 @@
             <div class="flex items-center justify-center flex-row flex-wrap mt-6 space-y-1 space-x-1.5 xl:text-base text-sm">
                 <Link
                     v-for="area in areasWeCover"
-                    :href="area.slug"
+                    :href="'/coverage/'+area.slug"
                     class="flex items-center hover:text-site-100"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1 fill-site-100" viewBox="0 0 20 20">
@@ -33,6 +33,14 @@
 import { Link } from "@inertiajs/vue3";
 const areasWeCover = [
     {
+        name: 'Aylesbury',
+        slug: 'aylesbury',
+    },
+    {
+        name: 'Beaconsfield',
+        slug: 'beaconsfield',
+    },
+    {
         name: 'Birmingham',
         slug: 'birmingham',
     },
@@ -45,8 +53,8 @@ const areasWeCover = [
         slug: 'bristol',
     },
     {
-        name: 'Coventry',
-        slug: 'coventry',
+        name: 'High Wycombe',
+        slug: 'high-wycombe',
     },
     {
         name: 'Leeds',
@@ -69,8 +77,12 @@ const areasWeCover = [
         slug: 'manchester',
     },
     {
-        name: 'Newcastle upon Tyne',
-        slug: 'newcastle-upon-tyne',
+        name: 'Oxford',
+        slug: 'oxford',
+    },
+    {
+        name: 'Reading',
+        slug: 'reading',
     }
 ];
 

@@ -1,7 +1,7 @@
 <template>
     <Head>
         <title>Mobile Tyre Fitting & Repair | Top Quality Cheap Tyres | Roadside24</title>
-        <meta name="description" content="Discover Roadside24 – Your 24/7 mobile tyre service. Swift tire fitting, puncture repair, and more, anytime, anywhere. Stay on the road with our expert team. Reliable, efficient, and ready to assist – because your journey never waits. Contact us for on-the-go tyre solutions.">
+        <meta name="description" content="Roadside24 provides 24/7 mobile tyre fitting and mobile tyre repair. Fast, reliable, and efficient service to keep you moving anytime, anywhere.">
         <link rel="canonical" href="https://roadside24.co.uk/">
     </Head>
 
@@ -9,37 +9,61 @@
     <MainCarousel>
         <template v-slot:img_1>
             <img
-                src="/images/carousel/1.webp"
+                src="/images/carousel/mobile-tyre-fitting-1-400.webp"
+                srcset="/images/carousel/mobile-tyre-fitting-1.webp 1000w,
+                        /images/carousel/mobile-tyre-fitting-1-800.webp 800w,
+                        /images/carousel/mobile-tyre-fitting-1-400.webp 400w"
+                sizes="100vw"
                 class="object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile tyre fitting"
+                alt="Mobile tyre fitting and repair"
             >
         </template>
         <template v-slot:img_2>
             <img
-                src="/images/carousel/2.jpg"
+                src="/images/carousel/mobile-tyre-fitting-2.webp"
+                srcset="/images/carousel/mobile-tyre-fitting-2.webp 1000w,
+                        /images/carousel/mobile-tyre-fitting-2-800.webp 800w,
+                        /images/carousel/mobile-tyre-fitting-2-400.webp 400w"
+                sizes="100vw"
                 class="object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile tyre repair"
+                alt="Mobile tyre repair at home, work or roadside"
+                loading="lazy"
             >
         </template>
         <template v-slot:img_3>
             <img
-                src="/images/carousel/3.jpg"
+                src="/images/carousel/mobile-tyre-fitting-3.webp"
+                srcset="/images/carousel/mobile-tyre-fitting-3.webp 1024w,
+                        /images/carousel/mobile-tyre-fitting-3-800.webp 800w,
+                        /images/carousel/mobile-tyre-fitting-3-400.webp 400w"
+                sizes="100vw"
                 class="object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile tyre repair"
+                alt="Roadside mobile tyre fitting"
+                loading="lazy"
             >
         </template>
         <template v-slot:img_4>
             <img
-                src="/images/carousel/4.jpg"
+                src="/images/carousel/mobile-tyre-fitting-4.webp"
+                srcset="/images/carousel/mobile-tyre-fitting-4.webp 1024w,
+                        /images/carousel/mobile-tyre-fitting-4-800.webp 800w,
+                        /images/carousel/mobile-tyre-fitting-4-400.webp 400w"
+                sizes="100vw"
                 class="object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile tyre repair"
+                alt="Mobile tyre services at home, work or roadside"
+                loading="lazy"
             >
         </template>
         <template v-slot:img_5>
             <img
-                src="/images/carousel/5.jpg"
+                src="/images/carousel/mobile-tyre-fitting-5.webp"
+                srcset="/images/carousel/mobile-tyre-fitting-5.webp 1024w,
+                        /images/carousel/mobile-tyre-fitting-5-800.webp 800w,
+                        /images/carousel/mobile-tyre-fitting-5-400.webp 400w"
+                sizes="100vw"
                 class="object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile tyre repair"
+                alt="24/7 Mobile Tyre Services"
+                loading="lazy"
             >
         </template>
     </MainCarousel>
@@ -87,7 +111,7 @@
     <Container class="pt-8 pb-8 md:mb-16 mb-8 sm:mt-8 mt-4" id="about">
         <div class="sm:px-0 px-4">
 
-            <h1 class="font-montserrat font-bold md:text-3xl sm:text-2xl text-xl mb-2 uppercase">Welcome to <span class="text-site-700">Roadside24</span></h1>
+            <h2 class="font-montserrat font-bold md:text-3xl sm:text-2xl text-xl mb-2 uppercase">Welcome to <span class="text-site-700">Roadside24</span></h2>
             <h2 class="md:text-xl sm:text-lg text-base mb-10">We bring the garage to your car, so you don't have to.</h2>
             <p class="text-sm">
                 When it comes to when we may encounter a flat tyre, no person knows.
@@ -103,7 +127,7 @@
 
             <div class="md:grid grid-cols-12 gap-y-12 lg:gap-x-4 md:gap-x-8 md:space-y-0 space-y-12 md:mt-8 mt-4">
                 <div class="md:hidden block">
-                    <img src="/images/24-hour-assistance.jpg" alt="">
+                    <img src="/images/24-hour-assistance.webp" alt="">
                 </div>
 
                 <div class="col-span-7">
@@ -125,15 +149,15 @@
                             <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                             <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                         </svg>
-                        <span>Need mobile tyre services ASAP?, please call us on <a class="text-blue-600 underline" href="tel:07939485548">07939 485548</a> for a prompt service</span>
+                        <span>Need mobile tyre services ASAP?, please call us on <a class="text-blue-600 underline" href="tel:07386315315">07386 315315</a> for a prompt service</span>
                     </p>
                 </div>
                 <div class="md:block hidden col-span-5">
-                    <img src="/images/24-hour-assistance.jpg" alt="">
+                    <img src="/images/24-hour-assistance.webp" alt="">
                 </div>
 
                 <div class="col-span-5">
-                    <img src="/images/high-quality-tyres.jpg" alt="">
+                    <img src="/images/high-quality-tyres.webp" alt="">
                 </div>
                 <div class="col-span-7">
                     <h2 class="lg:text-3xl text-2xl font-semibold">Ultimate Performance Tyres</h2>
@@ -156,7 +180,7 @@
                             <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                             <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                         </svg>
-                        <span>Need mobile tyre services ASAP?, please call us on <a class="text-blue-600 underline" href="tel:07939485548">07939 485548</a> for a prompt service</span>
+                        <span>Need mobile tyre services ASAP?, please call us on <a class="text-blue-600 underline" href="tel:07386315315">07386 315315</a> for a prompt service</span>
                     </p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <template>
     <Head>
         <title>Van Mobile Tyre Fitting | Same Day at Home, Work or Roadside | Roadside24</title>
-        <meta name="description" content="We also fit van tyres at your location. Get your van tyres fitted on the same day of your call.">
+        <meta name="description" content="Van mobile tyre fitting in Oxfordshire and Buckinghamshire. Same-day service at your home, work, or roadside. Expert fitting for vans, fast and reliable.">
         <link rel="canonical" href="https://roadside24.co.uk/van-mobile-tyre-fitting">
     </Head>
 
@@ -9,9 +9,13 @@
     <div class="relative">
         <div class="relative h-[65vh] max-h-[550px] md:min-h-[480px] sm:min-h-[400px] min-h-[350px] md:w-full overflow-hidden">
             <img
-                src="/images/van-mobile-tyre-fitting-showcase.jpg"
+                src="/images/van-mobile-tyre-fitting-showcase-400.webp"
+                srcset="/images/van-mobile-tyre-fitting-showcase.webp 1024w,
+                        /images/van-mobile-tyre-fitting-showcase-800.webp 800w,
+                        /images/van-mobile-tyre-fitting-showcase-400.webp 400w"
+                sizes="100vw"
                 class="absolute inset-0 object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile Tyre Fitting"
+                alt="Van Mobile Tyre Fitting"
             >
         </div>
 
@@ -22,9 +26,9 @@
                 <h1 class="sm:text-left text-center font-light text-gray-200 md:text-3xl sm:text-2xl text-lg">Van Mobile Tyre Fitting - 24 Hours, 7 Days</h1>
 
                 <div class="flex items-center sm:justify-start justify-center sm:space-x-6 sm:space-y-0 space-y-4 md:mt-10 sm:mt-6 mt-3">
-                    <a href="tel:07939485548" class="flex items-end font-bold md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
+                    <a href="tel:07386315315" class="flex items-end font-bold md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" class="md:h-8 md:h-8 sm:w-7 sm:h-7 w-6 h-6 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
-                        <span>07939 485548</span>
+                        <span>07386 315315</span>
                     </a>
                 </div>
             </Container>
@@ -37,7 +41,7 @@
 
     <Container class="pt-8 pb-8 md:mb-16 mb-8 sm:mt-8 mt-4">
         <div class="sm:px-0 px-4">
-            <h1 class="font-montserrat font-bold md:text-3xl sm:text-2xl text-xl mb-2 uppercase"><span class="text-site-700">Van Mobile Tyre Fitting</span></h1>
+            <h2 class="font-montserrat font-bold md:text-3xl sm:text-2xl text-xl mb-2 uppercase"><span class="text-site-700">Van Mobile Tyre Fitting</span></h2>
             <h2 class="md:text-xl sm:text-lg text-base mb-10">Yes, you heard right. Get your van tyres fitted at your convenience!</h2>
 
             <div class="md:grid grid-cols-12 gap-y-12 lg:gap-x-4 md:gap-x-8 md:space-y-0 space-y-12 md:mt-8 mt-4">
@@ -60,11 +64,11 @@
                             <path fill-rule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                             <path fill-rule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                         </svg>
-                        <span>Need mobile tyre services ASAP?, please call us on <a class="text-blue-600 underline" href="tel:07939485548">07939 485548</a> for a prompt service</span>
+                        <span>Need mobile tyre services ASAP?, please call us on <a class="text-blue-600 underline" href="tel:07386315315">07386 315315</a> for a prompt service</span>
                     </p>
                 </div>
                 <div class="col-span-5">
-                    <img src="/images/van-mobile-tyre-fitting.jpg" alt="">
+                    <img src="/images/van-mobile-tyre-fitting.webp" alt="">
                 </div>
             </div>
         </div>

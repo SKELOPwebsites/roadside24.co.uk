@@ -28,9 +28,9 @@
                 <h1 class="text-center font-light text-gray-200 xl:text-4xl md:text-3xl sm:text-2xl text-lg">Mobile Tyre Fitting in {{ area }}</h1>
 
                 <div class="flex sm:flex-row flex-col items-center justify-center sm:space-x-6 sm:space-y-0 space-y-4 sm:mt-10 mt-6">
-                    <a href="tel:07939485548" class="flex items-end font-bold xl:text-5xl md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
+                    <a href="tel:07386315315" class="flex items-end font-bold xl:text-5xl md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" class="xl:h-12 md:h-8 xl:w-12 md:h-8 sm:w-7 sm:h-7 w-6 h-6 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
-                        <span>07939 485548</span>
+                        <span>07386 315315</span>
                     </a>
 
                     <Link href="/mobile-tyre-fitting" class="block text-white bg-site-500 font-medium md:px-8 md:py-4 px-6 py-4 uppercase hover:bg-site-300 transition cursor-pointer">

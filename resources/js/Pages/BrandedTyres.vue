@@ -1,7 +1,7 @@
 <template>
     <Head>
         <title>High Quality and Performant Tyres Available | Roadside24</title>
-        <meta name="description" content="We stock high quality and performant tyres from the leading tyre manufacturers">
+        <meta name="description" content="Explore our wide range of branded tyres for cars and vans. Quality tyres from top brands, available with mobile fitting services in Oxfordshire and Buckinghamshire.">
         <link rel="canonical" href="https://roadside24.co.uk/branded-tyres">
     </Head>
 
@@ -9,9 +9,13 @@
     <div class="relative">
         <div class="relative h-[65vh] max-h-[550px] md:min-h-[480px] sm:min-h-[400px] min-h-[350px] md:w-full overflow-hidden">
             <img
-                src="/images/branded-tyres-showcase.jpg"
+                src="/images/branded-tyres-showcase-400.webp"
+                srcset="/images/branded-tyres-showcase.webp 1024w,
+                        /images/branded-tyres-showcase-800.webp 800w,
+                        /images/branded-tyres-showcase-400.webp 400w"
+                sizes="100vw"
                 class="absolute inset-0 object-cover object-center w-full h-full brightness-[0.5]"
-                alt="Mobile Tyre Fitting"
+                alt="Our range of high quality and cheap tyres for mobile tyre fitting"
             >
         </div>
 
@@ -22,9 +26,9 @@
                 <h1 class="sm:text-left text-center font-light text-gray-200 md:text-3xl sm:text-2xl text-lg">Large range of quality brands available</h1>
 
                 <div class="flex items-center sm:justify-start justify-center sm:space-x-6 sm:space-y-0 space-y-4 md:mt-10 sm:mt-6 mt-3">
-                    <a href="tel:07939485548" class="flex items-end font-bold md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
+                    <a href="tel:07386315315" class="flex items-end font-bold md:text-4xl sm:text-3xl text-xl text-site-500 hover:text-site-300 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" class="md:h-8 md:h-8 sm:w-7 sm:h-7 w-6 h-6 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
-                        <span>07939 485548</span>
+                        <span>07386 315315</span>
                     </a>
                 </div>
             </Container>
@@ -37,7 +41,7 @@
 
     <Container class="pt-8 pb-8 md:mb-16 mb-8 sm:mt-8 mt-4">
         <div class="sm:px-0 px-4">
-            <h1 class="font-montserrat font-bold md:text-3xl sm:text-2xl text-xl mb-2 uppercase"><span class="text-site-700">Branded Tyres</span></h1>
+            <h2 class="font-montserrat font-bold md:text-3xl sm:text-2xl text-xl mb-2 uppercase"><span class="text-site-700">Branded Tyres</span></h2>
             <h2 class="md:text-xl sm:text-lg text-base mb-10">We stock high quality and performant tyres from leading tyre brands</h2>
 
             <div class="md:grid grid-cols-12 gap-y-12 lg:gap-x-4 md:gap-x-8 md:space-y-0 space-y-12 md:mt-8 mt-4">
@@ -59,7 +63,7 @@
                     </p>
                 </div>
                 <div class="col-span-5">
-                    <img src="/images/branded-tyres.jpg" alt="">
+                    <img src="/images/branded-tyres.webp" alt="">
                 </div>
             </div>
         </div>
